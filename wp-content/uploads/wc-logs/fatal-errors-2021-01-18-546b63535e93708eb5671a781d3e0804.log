@@ -1,0 +1,28 @@
+2021-01-18T01:05:48+00:00 CRITICAL Uncaught Error: Attempt to assign property "posts_page" on null in C:\xampp\htdocs\Ufun\wp-admin\includes\nav-menu.php:407
+Stack trace:
+#0 C:\xampp\htdocs\Ufun\wp-admin\includes\template.php(1516): wp_nav_menu_item_post_type_meta_box(NULL, Array)
+#1 C:\xampp\htdocs\Ufun\wp-admin\nav-menus.php(933): do_accordion_sections(Object(WP_Screen), 'side', NULL)
+#2 {main}
+  thrown en C:\xampp\htdocs\Ufun\wp-admin\includes\nav-menu.php en la línea 407
+
+2021-01-18T01:05:59+00:00 CRITICAL Uncaught Error: Attempt to assign property "posts_page" on null in C:\xampp\htdocs\Ufun\wp-admin\includes\nav-menu.php:407
+Stack trace:
+#0 C:\xampp\htdocs\Ufun\wp-admin\includes\template.php(1516): wp_nav_menu_item_post_type_meta_box(NULL, Array)
+#1 C:\xampp\htdocs\Ufun\wp-admin\nav-menus.php(933): do_accordion_sections(Object(WP_Screen), 'side', NULL)
+#2 {main}
+  thrown en C:\xampp\htdocs\Ufun\wp-admin\includes\nav-menu.php en la línea 407
+
+2021-01-18T01:06:27+00:00 CRITICAL Uncaught Error: Attempt to assign property "posts_page" on null in C:\xampp\htdocs\Ufun\wp-admin\includes\nav-menu.php:407
+Stack trace:
+#0 C:\xampp\htdocs\Ufun\wp-admin\includes\template.php(1516): wp_nav_menu_item_post_type_meta_box(NULL, Array)
+#1 C:\xampp\htdocs\Ufun\wp-admin\nav-menus.php(933): do_accordion_sections(Object(WP_Screen), 'side', NULL)
+#2 {main}
+  thrown en C:\xampp\htdocs\Ufun\wp-admin\includes\nav-menu.php en la línea 407
+
+2021-01-18T01:12:09+00:00 CRITICAL Uncaught Error: Attempt to assign property "posts_page" on null in C:\xampp\htdocs\Ufun\wp-admin\includes\nav-menu.php:407
+Stack trace:
+#0 C:\xampp\htdocs\Ufun\wp-admin\includes\template.php(1516): wp_nav_menu_item_post_type_meta_box(NULL, Array)
+#1 C:\xampp\htdocs\Ufun\wp-admin\nav-menus.php(933): do_accordion_sections(Object(WP_Screen), 'side', NULL)
+#2 {main}
+  thrown en C:\xampp\htdocs\Ufun\wp-admin\includes\nav-menu.php en la línea 407
+
