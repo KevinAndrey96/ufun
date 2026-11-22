@@ -18,18 +18,18 @@
  * @package WordPress
  */
 
-// ** MySQL settings - You can get this info from your web host ** //
+// ** MySQL settings - Environment-aware with Local Fallbacks ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'Ufun' );
+define( 'DB_NAME', getenv('WORDPRESS_DB_NAME') ?: (getenv('DB_NAME') ?: 'ufun') );
 
 /** MySQL database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', getenv('WORDPRESS_DB_USER') ?: (getenv('DB_USER') ?: 'ufun_user') );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', getenv('WORDPRESS_DB_PASSWORD') ?: (getenv('DB_PASSWORD') ?: 'ufun_password') );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', getenv('WORDPRESS_DB_HOST') ?: (getenv('DB_HOST') ?: 'localhost') );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
