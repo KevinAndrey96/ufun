@@ -76,7 +76,7 @@ Docker will:
 
 ### 3. Access the Applications
 - **Storefront**: [http://localhost:8080](http://localhost:8080)
-- **WordPress Admin**: [http://localhost:8080/wp-admin](http://localhost:8080/wp-admin)
+- **WordPress Admin**: [http://localhost:8080/wp-admin](http://localhost:8080/wp-admin) (User: `admin`, Password: `admin123`)
 - **phpMyAdmin**: [http://localhost:8081](http://localhost:8081) (Server: `db`, User: `ufun_user`, Password: `ufun_password`)
 
 ---

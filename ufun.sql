@@ -2018,7 +2018,12 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (27, 1, 'closedpostboxes_page', 'a:0:{}'),
 (28, 1, 'metaboxhidden_page', 'a:0:{}'),
 (29, 1, 'last_update', '1610931015'),
-(30, 1, 'woocommerce_admin_activity_panel_inbox_last_read', '1610931011511');
+(30, 1, 'woocommerce_admin_activity_panel_inbox_last_read', '1610931011511'),
+(31, 2, 'nickname', 'admin'),
+(32, 2, 'first_name', 'Store'),
+(33, 2, 'last_name', 'Admin'),
+(34, 2, 'wp_capabilities', 'a:1:{s:13:\"administrator\";b:1;}'),
+(35, 2, 'wp_user_level', '10');
 
 -- --------------------------------------------------------
 
@@ -2044,7 +2049,8 @@ CREATE TABLE `wp_users` (
 --
 
 INSERT INTO `wp_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES
-(1, 'UfunAD', '$P$BtZRDjPNkrmH618LZ..aQwAmUxv0uZ.', 'ufunad', 'design@instanceshape.com', 'http://localhost/ufun', '2021-01-17 01:27:59', '', 0, 'UfunAD');
+(1, 'UfunAD', '$P$BtZRDjPNkrmH618LZ..aQwAmUxv0uZ.', 'ufunad', 'design@instanceshape.com', 'http://localhost/ufun', '2021-01-17 01:27:59', '', 0, 'UfunAD'),
+(2, 'admin', '0192023a7bbd73250516f069df18b500', 'admin', 'admin@example.com', 'http://localhost:8080', '2026-11-20 00:00:00', '', 0, 'Store Admin');
 
 -- --------------------------------------------------------
 
