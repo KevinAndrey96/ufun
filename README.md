@@ -1,4 +1,4 @@
-# Turnkey WordPress & WooCommerce E-Commerce Store Template
+# Turnkey WordPress & WooCommerce Tech Store Template (wordpress-tech-store)
 
 [![WordPress](https://img.shields.io/badge/WordPress-6.x%20%7C%205.x-21759B?style=for-the-badge&logo=wordpress&logoColor=white)](https://wordpress.org)
 [![WooCommerce](https://img.shields.io/badge/WooCommerce-Ready-96588A?style=for-the-badge&logo=woocommerce&logoColor=white)](https://woocommerce.com)
